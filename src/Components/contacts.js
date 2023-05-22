@@ -6,7 +6,7 @@ function Contacts(){
             {contacts.map((item)=>{
                 return(
                     <div className="contact">
-                        <a href={item.link}>
+                        <a href={item.link} target="_blank">
                             <img src={item.path} className="contact-img"/>
                         </a>
                     </div>
