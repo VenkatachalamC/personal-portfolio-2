@@ -6,16 +6,18 @@ import Projects from "./Components/projects";
 import Contacts from "./Components/contacts";
 import './app.css';
 import Skills from "./Components/skills";
-import Dummy from "./Components/dummy";
+import Footer from "./Components/footer";
 function App() {
   return (
     <div className="container">
       <Navbar/>
+      <div id="#home"></div>
       <Home/>
       <About/>
       <Projects/>
       <Certificates/>
       <Skills/>
+      <Footer/>
     </div>
   );
 }

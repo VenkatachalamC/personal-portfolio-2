@@ -7,6 +7,9 @@
     margin: 30px 30px 30px 0px;
     transition: scale 0.5s;
 }
+*{
+    scroll-behavior: smooth;
+}
 
 .content-card{
     align-items: flex-start;
