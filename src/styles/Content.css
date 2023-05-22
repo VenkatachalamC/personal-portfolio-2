@@ -1,0 +1,57 @@
+#home{
+    width: 70%;
+    height: 70%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 30px 30px 30px 0px;
+    transition: scale 0.5s;
+}
+
+.content-card{
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 30px;
+    border-radius: 5%;
+    box-shadow: 10px 10px 30px 10px blanchedalmond;
+    width:800px;
+    height: 300px;
+    margin: 20px;
+}
+
+.image{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border-color:blanchedalmond;
+    border-width: 5px;
+    border-style:solid;
+    box-shadow: 5px 5px 50px 5px blanchedalmond;
+}
+
+#home:hover{
+    scale: 1.1;
+}
+
+h3{
+    font-weight: normal;
+}
+
+.home-cont{
+    font-weight: normal;
+    font-size: x-large;
+    margin: 10px;
+}
+
+.home-cont{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.home-desc{
+    margin: 20px;
+}

@@ -1,0 +1,34 @@
+#contacts{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.contact{
+    margin: 20px 40px 20px 10px;
+    height: 30px;
+    width: 30px;
+    transition: scale 0.5s;
+
+}
+
+.contact-img{
+    height: 100%;
+    width: 100%;
+}
+.cont-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#contacts h1{
+    font-weight: normal;
+}
+
+.contact:hover{
+    scale: 1.2;
+}

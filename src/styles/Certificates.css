@@ -1,0 +1,45 @@
+.certificate{
+    margin: 30px;
+    transition: scale 0.5s;
+    box-shadow: 5px 5px 30px 5px blanchedalmond;
+    border-radius: 3%;
+    padding: 10px;
+    width: 100%;
+}
+
+
+.certificate:hover{
+    scale:1.2;
+}
+
+.certi-img{
+    float: left;
+    height: 200px;
+    width: 300px;
+    border-radius: 10%;
+}
+
+.certi-desc{
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#certificate-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.certi-desc h3{
+    font-weight: normal;
+
+}
+
+#certificate-container h1{
+    font-weight: normal;
+}
