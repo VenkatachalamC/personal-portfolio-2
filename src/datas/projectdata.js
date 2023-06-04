@@ -4,14 +4,14 @@ const projects=[
     {
         projectName:"diabetes prediction webApp using Machine Learning",
         link:"https://mldiabetespredictor.pythonanywhere.com/",
-        thumbnail:"projects/diabetes.jpg",
+        thumbnail:"projects/miniproj.png",
         git:"https://github.com/kowshick17/diabetes-prediction-app",
         description:"web app to predict diabetes using machine learning algorithms."
     },
     {
         projectName:"Implementation of saas using Network attached storage",
         link:"https://cloudstorageplatform.netlify.app/",
-        thumbnail:"projects/saas.png",
+        thumbnail:"projects/mainproj.png",
         git:"https://github.com/kowshick17/cloudWebApp",
         description:"web app and mobile app to store files in cloud storage platform."
     },

@@ -18,9 +18,9 @@ const Projects=()=>{
         <div id="projects">
             <h1 className="proj-topic">Projects</h1>
             <div className="carousel">
-            <img src="before.png" onClick={next} className="navigator"/>
+            <img src="before.png" onClick={previous} className="navigator"/>
             <ProjectRender data={projects} idx={current}/>
-            <img src="next.png"  onClick={previous} className="navigator"/>
+            <img src="next.png"  onClick={next} className="navigator"/>
             </div>
         </div>
     )
