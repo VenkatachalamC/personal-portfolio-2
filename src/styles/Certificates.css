@@ -4,7 +4,8 @@
     box-shadow: 5px 5px 30px 5px blanchedalmond;
     border-radius: 3%;
     padding: 10px;
-    width: 100%;
+    width: 600px;
+    height: 200px;
 }
 
 
@@ -42,4 +43,17 @@
 
 #certificate-container h1{
     font-weight: normal;
+}
+.cert-carousel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.car-nav{
+    height: 50px;
+    width: 50px;
+    margin: 50px;
+    cursor: pointer;
 }

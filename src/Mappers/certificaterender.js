@@ -1,5 +1,5 @@
 import '../styles/Certificates.css'
-function certificateRender(item){
+function CertificateRender({item}){
     return (
         <div className='certificate'>
         <img src={item.link} className='certi-img'/>
@@ -11,4 +11,4 @@ function certificateRender(item){
     )
 }
 
-export default certificateRender;
+export default CertificateRender;

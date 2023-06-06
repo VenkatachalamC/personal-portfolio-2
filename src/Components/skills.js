@@ -8,7 +8,15 @@ function Skills() {
     const [appdev, setappdev] = useState(false);
     const [bend, setbend] = useState(false);
     return (
-        <div className="skills-container">
+        <motion.div className="skills-container"
+        variants={{
+            hidden:{opacity:0,y:400,zIndex:-1},
+            visible:{opacity:1,y:0,zIndex:0}
+        }}
+        initial="hidden"
+        whileInView="visible"
+        transition={{duration:1}}
+        >
             <h1>Skills</h1>
             <div onClick={(e) => setfs(!fs)} className='skill-class'>
                 <h3>fullstack</h3>
@@ -71,7 +79,7 @@ function Skills() {
                 })}
             </motion.div>)}
 
-        </div>
+        </motion.div>
     )
 }
 

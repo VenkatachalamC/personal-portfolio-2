@@ -8,7 +8,7 @@
     position: fixed;
     z-index: 10;
     position: fixed;
-    background-color:#408EC6;
+    background-color:white;
     margin-bottom: 30px;
 }
 
@@ -54,5 +54,12 @@
 }
 
 .item a:hover{
-    border-bottom: 5px solid whitesmoke;
+    border-bottom: 5px solid #408EC6;
+}
+
+.nav h1{
+    color: #408EC6;
+}
+.item a{
+    color: #408EC6;
 }

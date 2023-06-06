@@ -1,10 +1,18 @@
 
 import contacts from "../datas/contactinfo";
 import '../styles/footer.css';
+import {motion} from 'framer-motion';
 function Footer() {
 
     return (
-        <div className="footer-container">
+        <motion.div className="footer-container"
+        variants={{
+            hidden:{opacity:0,y:400,zIndex:-1},
+            visible:{opacity:1,y:0,zIndex:0}
+        }}
+        initial="hidden"
+        whileInView="visible"
+        transition={{duration:1}}>
             <div className="footer">
                 <div className="f1">
                     <h1>Contact Me</h1>
@@ -38,7 +46,7 @@ function Footer() {
                 </div>
             </div>
             <h3>Copyright © 2023. All rights reserved @venkatachalam C</h3>
-        </div>
+        </motion.div>
     )
 }
 

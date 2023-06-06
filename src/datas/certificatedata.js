@@ -3,7 +3,7 @@ const certificates=[
     {
         link:"/certificates/fullstack.jpg",
         platform:"Udemy",
-        description:"full stack development bootcamp"
+        description:"Full Stack Web Development Bootcamp"
     },
     {
         link:"/certificates/mysql.jpg",
@@ -13,17 +13,17 @@ const certificates=[
     {
         link:"/certificates/python.jpg",
         platform:"Udemy",
-        description:"python"
+        description:"Python"
     },
     {
         link:"/certificates/reactnative.jpg",
         platform:"Udemy",
-        description:"react native"
+        description:"React Native"
     },
     {
         link:"/certificates/cpp.jpg",
         platform:"Udemy",
-        description:"datastructures and algorithms in c++"
+        description:"Datastructures And Algorithms In C++"
     },
 ]
 

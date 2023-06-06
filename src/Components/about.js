@@ -1,5 +1,6 @@
 import '../styles/about.css';
-import {useState} from 'react'
+import {useState} from 'react';
+import {motion} from 'framer-motion'
 const About = () => {
     const [showed,setshowed]=useState(true);
     const [edu,setedu]=useState(" selected");
@@ -15,8 +16,25 @@ const About = () => {
         setprac(" selected");
         setedu("");
     }
+
+    function ResumeDownload(e){
+        const atag=document.createElement('a');
+        atag.setAttribute('href',"v.png");
+        atag.setAttribute('download','');
+        document.body.appendChild(atag);
+        atag.click();
+        atag.remove();
+    }
     return (
-        <div id="about">
+        <motion.div id="about" 
+        variants={{
+            hidden:{opacity:0,y:400,zIndex:-1},
+            visible:{opacity:1,y:0,zIndex:0}
+        }}
+        initial="hidden"
+        whileInView="visible"
+        transition={{duration:1}}
+        >
             <h1>About Me</h1>
             <p>
                 Hey there,This is Venkatachalam C.
@@ -25,8 +43,9 @@ const About = () => {
             </p>
             <div className='options'>
             <h1 className={"ed"+edu} onClick={showEdu}>Educational Details</h1>
-            <h1 className={"ed"+prac} onClick={showPrac}>Practice</h1>
+            <h1 className={"ed"+prac} onClick={showPrac}>Resume</h1>
             </div>
+            <div className='content-container'>
             {showed &&
             (<div className="educational-details">
             <ul>
@@ -52,15 +71,15 @@ const About = () => {
                 <ul>
                 <li>
                 <div className='indv-practice'>
-                <h3>leetcode</h3>
-                <h3>problems solved:437</h3>
-                <a href="https://leetcode.com/kowshick17/" target='_blank'><h5>https://leetcode.com/kowshick17/</h5></a>
+                <h3 onClick={ResumeDownload}>Download Resume</h3>
+                <button className='download-btn'>Download</button>
                 </div>
                 </li>
                 </ul>
             </div> )
             }
-        </div>
+            </div>
+        </motion.div>
     )
 }
 

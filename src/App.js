@@ -9,6 +9,7 @@ import Skills from "./Components/skills";
 import Footer from "./Components/footer";
 function App() {
   return (
+    <div>
     <div className="container">
       <Navbar/>
       <div id="#home"></div>
@@ -18,6 +19,7 @@ function App() {
       <Certificates/>
       <Skills/>
       <Footer/>
+    </div>
     </div>
   );
 }
