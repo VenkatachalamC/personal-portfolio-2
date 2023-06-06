@@ -1,4 +1,4 @@
-#home{
+.home{
     width: 70%;
     height: 100%;
     align-items: center;
@@ -34,8 +34,8 @@
     box-shadow: 5px 5px 50px 5px blanchedalmond;
 }
 
-#home:hover{
-    scale: 1.1;
+.home:hover{
+    scale: 1.05;
 }
 
 h3{

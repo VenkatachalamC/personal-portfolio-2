@@ -3,6 +3,7 @@ import Contacts from './contacts';
 import {motion} from 'framer-motion'
 const Home=()=>{
     return (
+        <div id="home">
         <motion.div className="home-cont"
         variants={{
             start:{opacity:0,x:-900},
@@ -13,7 +14,7 @@ const Home=()=>{
         transition={{duration:2}}
         >
         <Contacts/>
-        <div id="home">
+        <div className="home">
             <div className="content-card">
                 <div className="home-desc">
             <h3>Hi I'm,Venkatachalam C</h3>
@@ -24,6 +25,7 @@ const Home=()=>{
             </div>
         </div>
         </motion.div>
+        </div>
     )
 }
 

@@ -26,7 +26,8 @@ const About = () => {
         atag.remove();
     }
     return (
-        <motion.div id="about" 
+        <div id="about">
+        <motion.div className="about" 
         variants={{
             hidden:{opacity:0,y:400,zIndex:-1},
             visible:{opacity:1,y:0,zIndex:0}
@@ -80,6 +81,7 @@ const About = () => {
             }
             </div>
         </motion.div>
+        </div>
     )
 }
 

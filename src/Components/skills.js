@@ -11,7 +11,7 @@ function Skills() {
         <motion.div className="skills-container"
         variants={{
             hidden:{opacity:0,y:400,zIndex:-1},
-            visible:{opacity:1,y:0,zIndex:0}
+            visible:{opacity:1,y:60,zIndex:0}
         }}
         initial="hidden"
         whileInView="visible"

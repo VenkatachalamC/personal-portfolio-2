@@ -1,5 +1,5 @@
 
-#projects{
+.projects{
     height: 400px;
     width: 700px;
     display: flex;
@@ -59,7 +59,7 @@
 
 
 .indv:hover{
-    scale:1.1;
+    scale:1.05;
 }
 .btn{
     margin: 5px;

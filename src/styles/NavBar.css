@@ -63,3 +63,16 @@
 .item a{
     color: #408EC6;
 }
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: white; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #408EC6; 
+  }

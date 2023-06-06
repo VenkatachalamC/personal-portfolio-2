@@ -16,15 +16,16 @@ const Projects=()=>{
         })
     }
     return (
+        <div id="projects">
         <motion.div 
         variants={{
             hidden:{opacity:0,y:400,zIndex:-1},
-            visible:{opacity:1,y:0,zIndex:0}
+            visible:{opacity:1,y:60,zIndex:0}
         }}
         initial="hidden"
         whileInView="visible"
         transition={{duration:1}}
-        id="projects">
+        className="projects">
             <h1 className="proj-topic">Projects</h1>
             <div className="carousel">
             <img src="before.png" onClick={previous} className="navigator"/>
@@ -32,6 +33,7 @@ const Projects=()=>{
             <img src="next.png"  onClick={next} className="navigator"/>
             </div>
         </motion.div>
+        </div>
     )
 }
 

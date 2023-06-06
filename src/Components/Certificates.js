@@ -13,10 +13,11 @@ const Certificates=()=>{
     }
     const [idx,setidx]=useState(0);
     return (
+        <div id="certificates">
         <motion.div id="certificate-container"
         variants={{
             hidden:{opacity:0,y:400,zIndex:-1},
-            visible:{opacity:1,y:0,zIndex:0}
+            visible:{opacity:1,y:60,zIndex:0}
         }}
         initial="hidden"
         whileInView="visible"
@@ -29,6 +30,7 @@ const Certificates=()=>{
             <img src='next.png' className="car-nav" onClick={next}/>
             </div>
         </motion.div>
+        </div>
     )
 }
 
