@@ -6,12 +6,12 @@ const Home=()=>{
         <div id="home">
         <motion.div className="home-cont"
         variants={{
-            start:{opacity:0,x:-900},
-            end:{opacity:1,x:0}
+            start:{opacity:0,y:-300},
+            end:{opacity:1,y:0}
         }}
         initial="start"
         whileInView="end"
-        transition={{duration:2}}
+        transition={{duration:1.5}}
         >
         <Contacts/>
         <div className="home">

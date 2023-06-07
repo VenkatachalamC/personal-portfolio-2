@@ -2,11 +2,14 @@ import '../styles/skills.css'
 import { fullstack, backEnd, coding, appDevelopment } from '../datas/skilldata';
 import { useState } from 'react';
 import { motion } from "framer-motion";
+import { theme } from '../context/theme';
+import { useContext } from 'react';
 function Skills() {
     const [fs, setfs] = useState(false);
     const [code, setcode] = useState(false);
     const [appdev, setappdev] = useState(false);
     const [bend, setbend] = useState(false);
+    const themeCont=useContext(theme);
     return (
         <motion.div className="skills-container"
         variants={{
@@ -28,7 +31,7 @@ function Skills() {
                     return (
                         <div className="skill">
                             <img src={item.path} className="skill-img" />
-                            <h3 className="skill-txt">{item.name}</h3>
+                            <h4 className={themeCont.current+"-skill-txt"}>{item.name}</h4>
                         </div>
                     )
                 })}
@@ -43,7 +46,7 @@ function Skills() {
                     return (
                         <div className="skill">
                             <img src={item.path} className="skill-img" />
-                            <h3 className="skill-txt">{item.name}</h3>
+                            <h3 className={themeCont.current+"-skill-txt"}>{item.name}</h3>
                         </div>
                     )
                 })}
@@ -58,7 +61,7 @@ function Skills() {
                     return (
                         <div className="skill">
                             <img src={item.path} className="skill-img" />
-                            <h3 className="skill-txt">{item.name}</h3>
+                            <h3 className={themeCont.current+"-skill-txt"}>{item.name}</h3>
                         </div>
                     )
                 })}
@@ -73,7 +76,7 @@ function Skills() {
                     return (
                         <div className="skill">
                             <img src={item.path} className="skill-img" />
-                            <h3 className="skill-txt">{item.name}</h3>
+                            <h3 className={themeCont.current+"-skill-txt"}>{item.name}</h3>
                         </div>
                     )
                 })}

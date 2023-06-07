@@ -5,7 +5,7 @@
     justify-content: center;
     text-align: center;
     border-radius: 2%;
-    box-shadow: 10px 10px 50px 5px blanchedalmond;
+    box-shadow: 0px 0px 17px 3px blanchedalmond;
     margin: 50px;
     padding: 30px;
     transition: scale 0.5s;
@@ -47,9 +47,16 @@ body{
     
 }
 
-.course{
+.light-course{
     font-weight: normal;
     margin: 0px;
+    color: black;
+}
+
+.dark-course{
+    font-weight: normal;
+    margin: 0px;
+    color: white;
 }
 
 .educational-details h5{
@@ -59,9 +66,15 @@ body{
     margin: 0px;
 }
 
-.ed{
+.light-ed{
     font-weight: normal;
     margin: 0px 50px 0px 50px;
+    color: black;
+}
+.dark-ed{
+    font-weight: normal;
+    margin: 0px 50px 0px 50px;
+    color: white;
 }
 
 .about h1{
@@ -142,4 +155,12 @@ body{
 .download-btn:hover{
     background-color: white;
     color: #408EC6;
+}
+
+.light-h3{
+    color: black;
+}
+
+.dark-h3{
+    color: white;
 }

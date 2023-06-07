@@ -42,7 +42,7 @@ align-items: center;
     justify-content: space-evenly;
     margin: 20px;
     border-radius: 5%;
-    box-shadow:5px 5px 5px 3px blanchedalmond;
+    box-shadow:0px 0px 17px 3px blanchedalmond;
     padding: 20px;
     transition: scale 0.5s;
 }
@@ -61,8 +61,15 @@ align-items: center;
     font-weight: normal;
 }
 
-.skill-txt{
+.light-skill-txt{
     font-weight: normal;
+    font-size: larger;
+}
+
+.dark-skill-txt{
+    font-weight: normal;
+    font-size: larger;
+    color: white;
 }
 
 .skill-class{

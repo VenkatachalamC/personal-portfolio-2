@@ -76,3 +76,18 @@
   ::-webkit-scrollbar-thumb {
     background: #408EC6; 
   }
+
+.dark-theme{
+    background-color: black;
+}
+
+.darktheme-fonts{
+    color: white;
+}
+
+.theme-icon{
+    height: 30px;
+    width: 30px;
+    margin: 0px;
+    cursor: pointer;
+}

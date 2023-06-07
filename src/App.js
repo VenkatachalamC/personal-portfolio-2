@@ -7,8 +7,10 @@ import Contacts from "./Components/contacts";
 import './app.css';
 import Skills from "./Components/skills";
 import Footer from "./Components/footer";
+import ThemeContext from "./context/theme";
 function App() {
   return (
+    <ThemeContext>
     <div>
     <div className="container">
       <Navbar/>
@@ -21,6 +23,7 @@ function App() {
       <Footer/>
     </div>
     </div>
+    </ThemeContext>
   );
 }
 
