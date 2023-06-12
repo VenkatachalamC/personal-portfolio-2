@@ -8,6 +8,10 @@ const contacts=[
         path:"contacts/github.png"
     },
     {
+        link:"https://leetcode.com/kowshick17/",
+        path:"contacts/leetcode.png"
+    },
+    {
         link:"mailto:venkatachalam17092001@gmail.com",
         path:"contacts/gmail.png"
     },

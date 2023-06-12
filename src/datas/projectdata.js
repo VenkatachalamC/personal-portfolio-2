@@ -25,7 +25,7 @@ const projects=[
         projectName:"Personal Portfolio",
         thumbnail:"projects/personal_portfolio_dark.png",
         git:"https://github.com/VenkatachalamC/personal-portfolio-2.git",
-        link:"https://drive.google.com/file/d/1udzN5c0fxdR8KwOf4OG0MZRaRwSKrYTY/view?usp=sharing",
+        link:"https://venkatachalamc.netlify.app/",
         description:"Personal Portfolio using Reactjs."
     },
     {

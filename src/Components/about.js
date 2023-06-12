@@ -21,8 +21,9 @@ const About = () => {
 
     function ResumeDownload(e) {
         const atag = document.createElement('a');
-        atag.setAttribute('href', "v.png");
+        atag.setAttribute('href', "https://drive.google.com/file/d/1ATCMj8SamsZMjVVZnIBKUyKPwtx0M8a2/view?usp=sharing");
         atag.setAttribute('download', '');
+        atag.setAttribute('target','_blank')
         document.body.appendChild(atag);
         atag.click();
         atag.remove();
