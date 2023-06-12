@@ -4,7 +4,7 @@ const contacts=[
         path:"contacts/linkedin.png"
     },
     {
-        link:"https://github.com/kowshick17",
+        link:"https://github.com/VenkatachalamC",
         path:"contacts/github.png"
     },
     {

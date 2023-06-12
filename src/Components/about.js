@@ -73,8 +73,8 @@ const About = () => {
                             <ul>
                                 <li className={themeCont.current + "-bullets"}>
                                     <div className='indv-practice'>
-                                        <h3 onClick={ResumeDownload} className={themeCont.current + "-h3"}>Download Resume</h3>
-                                        <button className='download-btn'>Download</button>
+                                        <h3 className={themeCont.current + "-h3"}>Download Resume</h3>
+                                        <button className='download-btn' onClick={ResumeDownload}>Download</button>
                                     </div>
                                 </li>
                             </ul>

@@ -2,7 +2,27 @@
 import contacts from "../datas/contactinfo";
 import '../styles/footer.css';
 import {motion} from 'framer-motion';
+import emailjs from "@emailjs/browser";
+import { useRef,useState } from "react";
 function Footer() {
+    const form=useRef();
+    const [name,setname]=useState("");
+    const[email,setemail]=useState("");
+    const [message,setmessage]=useState("")
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_2mjy7rp', 'template_zxi1j4l', form.current, 'I0i_3piBlAyHfojii')
+          .then((result) => {
+              console.log(result.text);
+              console.log(form.current);
+              setname("");
+              setemail("");
+              setmessage("");
+          }, (error) => {
+              console.log(error.text);
+          });
+      };
 
     return (
         <motion.div className="footer-container"
@@ -37,11 +57,11 @@ function Footer() {
                     </div>
                 </div>
                 <div className="f2">
-                    <form action="/" method="POST">
-                        <input type="text" name="name" required placeholder="Name"/>
-                        <input type="text" name="email" required placeholder="Email"/>
-                        <textarea rows="6" name="message" placeholder="Your message"/>
-                        <button type="submit">submit</button>
+                    <form ref={form} onSubmit={sendEmail}>
+                        <input type="text" required placeholder="Name" name="user_name" value={name} onChange={(e)=>setname(e.target.value)} />
+                        <input type="text" name="user_email" required placeholder="Email" value={email} onChange={(e)=>setemail(e.target.value)}/>
+                        <textarea rows="6" name="message" placeholder="Your message" value={message} onChange={(e)=>setmessage(e.target.value)}/>
+                        <button type="submit">Send</button>
                     </form>
                 </div>
             </div>

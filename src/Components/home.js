@@ -17,7 +17,7 @@ const Home=()=>{
         <div className="home">
             <div className="content-card">
                 <div className="home-desc">
-            <h3>Hi I'm,Venkatachalam C</h3>
+            <h3 className="home-name">Hi I'm,Venkatachalam C</h3>
             <h5 className="home-cont-txt">I love learning new things and solving problems.</h5>
             </div>
             <img src="photo.jpg" alt="img not found" className="image"/>

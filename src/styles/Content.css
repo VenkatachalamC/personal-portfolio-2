@@ -49,7 +49,7 @@ h3{
 .home-cont-txt{
     font-weight: normal;
     font-size: x-large;
-    margin: 10px;
+    margin: 0px;
 }
 
 .home-cont{
@@ -62,4 +62,8 @@ h3{
 
 .home-desc{
     margin: 20px;
+}
+
+.home-name{
+    font-size:xx-large;
 }
