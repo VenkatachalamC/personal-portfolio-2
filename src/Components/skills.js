@@ -1,5 +1,5 @@
 import '../styles/skills.css'
-import { fullstack, backEnd, coding, appDevelopment } from '../datas/skilldata';
+import { backEnd, coding, appDevelopment, frontend } from '../datas/skilldata';
 import { useState } from 'react';
 import { motion } from "framer-motion";
 import { theme } from '../context/theme';
@@ -22,12 +22,12 @@ function Skills() {
         >
             <h1>Skills</h1>
             <div onClick={(e) => setfs(!fs)} className='skill-class'>
-                <h3>fullstack</h3>
+                <h3>Frontend</h3>
             </div>
             {fs && (<motion.div initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 1 }} className="skills-grid-fs">
-                {fullstack.map((item) => {
+                {frontend.map((item) => {
                     return (
                         <div className="skill">
                             <img src={item.path} className="skill-img" />

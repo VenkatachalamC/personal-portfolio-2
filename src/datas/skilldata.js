@@ -1,4 +1,4 @@
-export const fullstack=[
+export const frontend=[
     
     {
         name:"Javascript",
@@ -9,12 +9,12 @@ export const fullstack=[
         path:"skills/logo192.png"
     },
     {
-        name:"Nodejs",
-        path:"skills/node.png"
+        name:"HTML",
+        path:"skills/html.png"
     },
     {
-        name:"Django",
-        path:"skills/django.png"
+        name:"CSS",
+        path:"skills/css.png"
     }
 ]
 
@@ -48,5 +48,9 @@ export const backEnd=[
     {
         name:"Django",
         path:"skills/django.png"
+    },
+    {
+        name:"Spring Boot",
+        path:"skills/springboot.png"
     }
 ]

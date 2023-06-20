@@ -25,6 +25,11 @@ const certificates=[
         platform:"Udemy",
         description:"Datastructures And Algorithms In C++"
     },
+    {
+        link:"/certificates/springboot.jpg",
+        platform:"Udemy",
+        description:"Spring Boot "
+    },
 ]
 
 export default certificates;
