@@ -37,6 +37,10 @@ export const appDevelopment=[
     {
         name:"React Native",
         path:"skills/react.png"
+    },
+    {
+        name:"Flutter",
+        path:"skills/flutter.png"
     }
 ]
 

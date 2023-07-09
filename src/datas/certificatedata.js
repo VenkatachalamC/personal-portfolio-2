@@ -30,6 +30,12 @@ const certificates=[
         platform:"Udemy",
         description:"Spring Boot "
     },
+    {
+        link:"/certificates/flutter.jpg",
+        platform:"Udemy",
+        description:"Flutter"
+    },
+    
 ]
 
 export default certificates;

@@ -34,6 +34,13 @@ const projects=[
         git:"https://github.com/VenkatachalamC/foodOrderingApp.git",
         link:"https://drive.google.com/file/d/1udzN5c0fxdR8KwOf4OG0MZRaRwSKrYTY/view?usp=sharing",
         description:"An online food Ordering Mobile app built using react native."
+    },
+    {
+        projectName:"Expense Tracker App using Flutter",
+        thumbnail:"projects/expenseTracker.jpg",
+        git:"https://github.com/VenkatachalamC/ExpenseTrackerFlutterApp.git",
+        link:"https://drive.google.com/file/d/1AmXMQWm2F7D8mM1MuTKtzFJnuvX6MBGY/view?usp=sharing",
+        description:"An Expense Tracker App which holds the expenses of users."
     }
 ]
 
