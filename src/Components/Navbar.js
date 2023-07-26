@@ -31,7 +31,7 @@ const NavBar = () => {
             <li className="item"><a href="#about">About</a></li>
             <li className="item"><a href="#projects">Projects</a></li>
             <li className="item"><a href="#certificates">Certificates</a></li>
-            <li className="item"><a href="https://drive.google.com/file/d/1ATCMj8SamsZMjVVZnIBKUyKPwtx0M8a2/view?usp=sharing" target="_blank">Resume</a></li>
+            <li className="item"><a href="https://drive.google.com/file/d/1uuXC7nwSsEL1KbbQxrkUC82iOgrpM59A/view?usp=sharing" target="_blank">Resume</a></li>
             <li className="item"><img onClick={switchtheme} src={"./themeicons/"+(themeCont.current==="light"?"dark":"light")+".png"} className="theme-icon"/></li>
           </ul>
           </div>
